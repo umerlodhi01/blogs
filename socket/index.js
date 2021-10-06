@@ -3,7 +3,7 @@ module.exports = function (io) {
       console.log('connection has been established');
   
       socket.on('posts/subscribe', function(meetupId) {
-        console.log('joining meetup ', `meetup-${meetupId}`);
+        console.log('joining meetup testing1234', `meetup-${meetupId}`);
         socket.join(`meetup-${meetupId}`);
       })
   
